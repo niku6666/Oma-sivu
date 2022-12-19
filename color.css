@@ -1,10 +1,15 @@
-body {background-color: black;}
 
+body {background-image: url('https://wallpaperaccess.com/full/1157058.jpg');}
+::-webkit-scrollbar {width: 0.75rem;}
+::-webkit-scrollbar-track {background: black;}
+::-webkit-scrollbar-thumb {background: red;
+max-height: 40px;
+height: 40px;}
 h1 {color:red}
 h2 {color: red}
-li {color: black}
+li {color: red}
 p {color: pink}
-a {color: pink}
+a {color: red}
 
 .laatikko { 
     width: 230px;;
@@ -13,20 +18,20 @@ a {color: pink}
     text-align: left;
     position:absolute;
     left:700px;
-    top:475px;
+    top:425px;
     border: 5px solid red;
 }
 
 .peleja {
     position: absolute;
     left: 350px;
-    top: -70px;
+    top: -100px;
     width: 500px;
     height: auto;   
 }
 
 .pelit {
-    width: 260px;
+    width: 250px;
     height: 130px;
     background-color: pink;
     text-align: l;
@@ -43,7 +48,7 @@ a {color: pink}
     text-align: left;
     position: absolute;
     left: 700px;
-    top: 750px;
+    top: 700px;
     border: 5px solid red;
 }
 
@@ -62,7 +67,7 @@ a {color: pink}
     text-align: left;
     position: absolute;
     left: 350px;
-    top: -5px;
+    top: 35px;
     border: 5px solid red;   
 }
 
@@ -70,16 +75,15 @@ a {color: pink}
     width: 300px;
     height: 240px;
     position: absolute;
-    top: 550px;
+    top: 590px;
     left: -5px;
-    background-color: black;
     text-align: center;
 }
 
 .niilo22 {
 position: absolute;
 left: 265px;
-top: 665px;
+top: 700px;
 }
 
 .kuva {
@@ -102,6 +106,7 @@ top: 665px;
     top: 440px;
     right: 10px;
     border: 5px solid red;
+    height: 200px;
 }
 
 .kuva4 {
@@ -109,6 +114,23 @@ top: 665px;
     top: 440px;
     right: 220px;
     border: 5px solid red;
+    height: 200px;
+}
+
+.gif {
+    position: absolute;
+    top: 700px;
+    right: 80px;
+    border:5px solid red;
+    height: 250px;
+}
+
+.gif2 {
+    position: absolute;
+    top: 325px;
+    right: 1210px;
+    border: 5px solid red;
+    height: 200px;
 }
 
 .maisema {
@@ -128,7 +150,8 @@ left: 1px;
 position: absolute;
 left: 30px;
 top: 230px; 
-border: 5px solid red;   
+border: 5px solid red; 
+height: 200px;  
 }
 
 .otsikko {
@@ -142,7 +165,7 @@ height: auto
 .harrastuksia {
 position: absolute;
 left:700px;
-top: 410px;
+top: 350px;
 width: 500px;
 height: auto;
 }
@@ -150,7 +173,7 @@ height: auto;
 .opiskelu {
 position: absolute;
 left: 700px;
-top: 600px;
+top: 550px;
 width: auto;
 height: auto;
 }
